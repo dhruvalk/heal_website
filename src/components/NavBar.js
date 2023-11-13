@@ -5,19 +5,19 @@ function NavBar() {
     <nav className="bg-green-primary py-4">
       <ul className="flex justify-center items-center text-white">
         <li className="mx-8">
-          <a href="#">Home</a>
+          <a href="/">Home</a>
         </li>
         <li className="mx-8">
-          <a href="#">About</a>
+          <a href="#about">About</a>
         </li>
         <li className="mx-8">
-          <a href="#">Projects</a>
+          <a href="#projects">Projects</a>
         </li>
         <li className="mx-8">
-          <a href="#">Partners</a>
+          <a href="#partners">Partners</a>
         </li>
         <li className="mx-8">
-          <a href="#">Contact Us</a>
+          <a href="#contact">Contact Us</a>
         </li>
       </ul>
     </nav>

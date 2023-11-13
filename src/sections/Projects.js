@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <div className="limit-screen flex w-full">
-      <div className="bg-green-100 w-full flex justify-center flex-col px-10">
+    <div className="limit-screen flex w-full" id="projects">
+      <div className="w-full flex justify-center flex-col px-10">
         <h1 className="primary-header py-10">Projects</h1>
         <Project />
         <Project />

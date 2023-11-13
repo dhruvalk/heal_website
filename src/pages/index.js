@@ -6,6 +6,7 @@ import Collaborations from "@/sections/Collaborations";
 import Contact from "@/sections/Contact";
 import MainSection from "@/sections/MainSection";
 import Projects from "@/sections/Projects";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -16,6 +17,13 @@ export default function Home() {
       <AboutUs />
       <Projects />
       <Collaborations />
+      <Image
+        src={"/contact.png"}
+        width={0}
+        height={0}
+        sizes="100vw"
+        style={{ width: "100%", height: "auto" }}
+      />
       <Contact />
       <Footer />
     </div>
