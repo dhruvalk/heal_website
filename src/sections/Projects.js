@@ -36,7 +36,7 @@ function Project() {
           </p>
         </div>
         <div className="px-4 py-2 w-1/2 flex justify-center items-center">
-          <div className="w-[380px] h-[300px]">
+          <div className="lg:w-[380px] w-[320px] h-[300px]">
             <Slider />
           </div>
         </div>
@@ -73,7 +73,7 @@ function Slider() {
             return (
               <div
                 key={idx}
-                className="keen-slider__slide flex items-center justify-center h-[300px] w-[380px]"
+                className="keen-slider__slide flex items-center justify-center h-[300px] w-[320px] lg:w-[380px]"
               >
                 <img src={image} />
               </div>
