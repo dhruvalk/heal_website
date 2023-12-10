@@ -4,7 +4,7 @@ import React from "react";
 export default function AboutUs() {
   return (
     <div className="limit-screen flex w-full" id="about">
-      <div className="w-2/3 flex justify-center flex-col gap-16 px-10">
+      <div className="sm:w-2/3 flex justify-center flex-col gap-8 sm:gap-16 py-4 px-10">
         <h1 className="primary-header pt-10">About Us</h1>
         <p>
           HEAL (Humanitarian Engineers And Leaders) is a group of dedicated
@@ -15,19 +15,19 @@ export default function AboutUs() {
           to create social impact through engineering, particularly in this
           region. Our expertise lies in:
         </p>
-        <div className="flex justify-between items-center">
+        <div className="gap-4 flex flex-col sm:flex-row justify-between items-center">
           {[
             "Diverse Backgrounds in STEM",
             "Experienced members in volunteering & education",
             "Structured membership & project continuity",
           ].map((item) => (
-            <div className="mx-8 w-full h-full p-8 flex justify-center items-center text-center rounded-xl bg-green-primary text-white font-bold">
+            <div className="h-full w-full p-8 flex justify-center items-center text-center rounded-xl bg-green-primary text-white font-bold">
               {item}
             </div>
           ))}
         </div>
       </div>
-      <div className="w-1/3 relative p-8">
+      <div className="w-1/3 relative p-8 hidden sm:block">
         <Image
           src={"/about_us.png"}
           width={0}

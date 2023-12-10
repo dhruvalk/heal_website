@@ -2,7 +2,7 @@ import React from "react";
 
 function NavBar() {
   return (
-    <nav className="bg-green-primary py-4">
+    <nav className="bg-green-primary py-4 hidden md:block">
       <ul className="flex justify-center items-center text-white">
         <li className="mx-8">
           <a href="/">Home</a>

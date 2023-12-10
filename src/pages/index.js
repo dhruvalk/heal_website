@@ -17,13 +17,7 @@ export default function Home() {
       <AboutUs />
       <Projects />
       <Collaborations />
-      <Image
-        src={"/contact.png"}
-        width={0}
-        height={0}
-        sizes="100vw"
-        style={{ width: "100%", height: "auto" }}
-      />
+      <Image src={"/contact.png"} width={10000} height={10000} />
       <Contact />
       <Footer />
     </div>

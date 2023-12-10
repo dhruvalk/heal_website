@@ -13,7 +13,7 @@ export default function Document() {
       ></meta>
       <Head />
 
-      <body className="flex">
+      <body>
         <Main />
         <NextScript />
       </body>

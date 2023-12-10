@@ -71,13 +71,22 @@ export default function Projects() {
       <div className="w-full flex justify-center flex-col px-10">
         <h1 className="primary-header py-10">Projects</h1>
         {projects.map(({ name, date, description, images }, idx) => (
-          <Project
-            key={idx}
-            name={name}
-            date={date}
-            description={description}
-            images={images}
-          />
+          <>
+            <ProjectMobileLayout
+              key={idx}
+              name={name}
+              date={date}
+              description={description}
+              images={images}
+            />
+            <Project
+              key={idx}
+              name={name}
+              date={date}
+              description={description}
+              images={images}
+            />
+          </>
         ))}
       </div>
     </div>
@@ -86,8 +95,8 @@ export default function Projects() {
 
 function Project({ name, date, description, images }) {
   return (
-    <div className="px-10 flex gap-16 items-center">
-      <h1 className="font-bold text-xl whitespace-pre-line w-1/6 text-right">
+    <div className="gap-16 items-center hidden lg:flex">
+      <h1 className="font-bold text-xl whitespace-pre-line w-[100px] text-right">
         {date}
       </h1>
       <div className="flex relative h-full">
@@ -100,7 +109,26 @@ function Project({ name, date, description, images }) {
           <p className="whitespace-pre-line">{description}</p>
         </div>
         <div className="px-4 py-2 w-1/2 flex justify-center items-center">
-          <div className="lg:w-[380px] w-[320px] h-[300px]">
+          <div className="xl:w-[420px] lg:w-[340px] w-[120px] h-[300px]">
+            <Slider images={images} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function ProjectMobileLayout({ name, date, description, images }) {
+  return (
+    <div className="flex flex-col gap-4 items-center lg:hidden">
+      <div className="bg-green-primary rounded-2xl my-4 flex flex-col divide-y-2 divide-white text-white">
+        <div className="flex flex-col gap-2 justify-center p-2">
+          <h1 className="font-bold text-xl">{name}</h1>
+          <p className="italic">{date}</p>
+          <p className="whitespace-pre-line">{description}</p>
+        </div>
+        <div className=" py-2 flex justify-center items-center">
+          <div className="md:w-[360px] sm:w-[360px] w-[300px]">
             <Slider images={images} />
           </div>
         </div>
@@ -130,7 +158,7 @@ function Slider({ images }) {
             return (
               <div
                 key={idx}
-                className="keen-slider__slide flex items-center justify-center h-[300px] w-[320px] lg:w-[380px]"
+                className="keen-slider__slide flex items-center justify-center"
               >
                 <img src={image} />
               </div>
