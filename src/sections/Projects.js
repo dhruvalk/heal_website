@@ -121,7 +121,7 @@ function Project({ name, date, description, images }) {
 function ProjectMobileLayout({ name, date, description, images }) {
   return (
     <div className="flex flex-col gap-4 items-center lg:hidden">
-      <div className="bg-green-primary rounded-2xl my-4 flex flex-col divide-y-2 divide-white text-white">
+      <div className="bg-green-primary px-2 py-4 rounded-2xl my-4 flex flex-col divide-y-2 gap-4 divide-white text-white">
         <div className="flex flex-col gap-2 justify-center p-2">
           <h1 className="font-bold text-xl">{name}</h1>
           <p className="italic">{date}</p>

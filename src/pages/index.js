@@ -7,6 +7,7 @@ import Contact from "@/sections/Contact";
 import MainSection from "@/sections/MainSection";
 import Projects from "@/sections/Projects";
 import Image from "next/image";
+import about_img2 from "../../public/about_us_2.png";
 
 export default function Home() {
   return (
@@ -15,6 +16,13 @@ export default function Home() {
       <NavBar />
       <MainSection />
       <AboutUs />
+      <Image
+        src={about_img2}
+        width={10000}
+        height={10000}
+        placeholder="blur"
+        className="lg:hidden"
+      />
       <Projects />
       <Collaborations />
       <Image src={"/contact.png"} width={10000} height={10000} />
