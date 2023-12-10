@@ -4,7 +4,7 @@ import headerPng from "../../public/header.png";
 
 export default function MainSection() {
   return (
-    <div id="home">
+    <div>
       <MobileHeader />
       <DesktopHeader />
     </div>

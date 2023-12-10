@@ -8,10 +8,12 @@ import MainSection from "@/sections/MainSection";
 import Projects from "@/sections/Projects";
 import Image from "next/image";
 import about_img2 from "../../public/about_us_2.png";
+import Hamburger from "@/components/Hamburger";
 
 export default function Home() {
   return (
-    <div>
+    <div id="home">
+      <Hamburger />
       <Header />
       <NavBar />
       <MainSection />
