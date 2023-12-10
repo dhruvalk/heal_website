@@ -3,6 +3,7 @@ import React from "react";
 
 export default function Collaborations() {
   const name_icon_map = {
+    "Roslin Orphanage": "roslin.png",
     "Operation Hope Foundation": "operation_hope.png",
     Mistletoe: "mistletoe.png",
     Terraformers: "terraformers.png",
