@@ -3,6 +3,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 import { IoMdCall } from "react-icons/io";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -17,18 +18,24 @@ export default function Header() {
 function SocialMediaIcons() {
   return (
     <div className="flex gap-6 md:order-1 order-2">
-      <AiFillLinkedin
-        size={30}
-        className="cursor-pointer hover:scale-110 transition-all"
-      />
-      <MdEmail
-        size={30}
-        className="cursor-pointer hover:scale-110 transition-all"
-      />
-      <IoMdCall
-        size={30}
-        className="cursor-pointer hover:scale-110 transition-all"
-      />
+      <Link href="https://www.linkedin.com/showcase/humanitarian-engineers-and-leaders/about/">
+        <AiFillLinkedin
+          size={30}
+          className="cursor-pointer hover:scale-110 transition-all"
+        />
+      </Link>
+      <Link href="mailto:reclub-heal@e.ntu.edu.sg">
+        <MdEmail
+          size={30}
+          className="cursor-pointer hover:scale-110 transition-all"
+        />
+      </Link>
+      <Link href="tel:83438517">
+        <IoMdCall
+          size={30}
+          className="cursor-pointer hover:scale-110 transition-all"
+        />
+      </Link>
     </div>
   );
 }

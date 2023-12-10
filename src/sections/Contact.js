@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { AiFillLinkedin } from "react-icons/ai";
 import { IoMdCall } from "react-icons/io";
@@ -17,16 +18,22 @@ export default function Contact() {
           </div>
           <div className="lg:px-8 w-full lg:w-2/3 flex flex-col justify-center gap-6 py-8 lg:py-2 text-left">
             <div className="flex gap-5 items-center">
-              <AiFillLinkedin className="cursor-pointer hover:scale-105" />
+              <Link href="https://www.linkedin.com/showcase/humanitarian-engineers-and-leaders/about/">
+                <AiFillLinkedin className="cursor-pointer hover:scale-110 transition-all" />
+              </Link>
               Humanitarian Engineers And Leaders (HEAL)
             </div>
             <div className="flex gap-5 items-center">
-              <MdEmail className="cursor-pointer hover:scale-105" />
+              <Link href="mailto:reclub-heal@e.ntu.edu.sg">
+                <MdEmail className="cursor-pointer hover:scale-110 transition-all" />
+              </Link>
               rep.ntu.heal@gmail.com
             </div>
             <div className="flex gap-5 items-center">
-              <IoMdCall className="cursor-pointer hover:scale-105" />
-              +65 90888888
+              <Link href="tel:83438517">
+                <IoMdCall className="cursor-pointer hover:scale-110 transition-all" />
+              </Link>
+              +65 83438517
             </div>
           </div>
         </div>
