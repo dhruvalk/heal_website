@@ -29,11 +29,11 @@ function DesktopHeader() {
         </span>
         <div className="flex divide-x-2 divide-black justify-center items-center">
           <div className="flex flex-col justify-center items-center px-14">
-            <h2 className="text-6xl font-bold">5</h2>
+            <h2 className="text-6xl font-bold">8</h2>
             <p className="lg:text-xl">years</p>
           </div>
           <div className="flex flex-col justify-center items-center px-14">
-            <h2 className="text-6xl font-bold">8</h2>
+            <h2 className="text-6xl font-bold">6</h2>
             <p className="lg:text-xl">projects</p>
           </div>
         </div>

@@ -31,7 +31,7 @@ const projects = [
     name: "Drip Irrigation | Cambodia",
     date: "Oct 2017/18",
     description:
-      "The project aimed to enhance water distribution and reduce water usage in garden plots through the introduction of a drip irrigation system. Additionally, our team demonstrated the application of slow-release NPK fertilizer pellets and taught locals to create homemade pesticides from local ingredients, promoting sustainable pest management and improving soil quality. The project's outcomes include teaching community members how to build a functional drip irrigation system using local materials, introducing the benefits of slow-release NPK fertilizer pellets for healthier crop growth, and empowering individuals to craft and use homemade pesticides to reduce reliance on harmful chemicals in agriculture.",
+      "The project aimed to enhance water distribution and reduce water usage in garden plots through the introduction of a drip irrigation system. We demonstrated the application of slow-release NPK fertilizer pellets and taught locals to create homemade pesticides from local ingredients, promoting sustainable pest management and improving soil quality.",
     images: [
       "/projects/water_irrigation/1.png",
       "/projects/water_irrigation/2.png",
@@ -44,7 +44,7 @@ const projects = [
     name: "Vertical Farming | Cambodia",
     date: "Oct 2018",
     description:
-      "our team launched a vertical farming project to introduce the community to innovative farming practices. Embracing the space and water conservation benefits of vertical farming, the project aimed to develop and implement a cost-efficient system using locally available materials. Through hands-on training, we deployed these setups and taught locals how to build, operate, and maintain their own vertical farming systems, fostering long-term usability. Additionally, the project sought to spark interest in sustainable agriculture, experimentation, and STEM by introducing the community to a diverse range of crops suitable for vertical farming.",
+      "Our team launched a vertical farming project to introduce the community to innovative farming practices. Embracing the space and water conservation benefits of vertical farming, the project aimed to develop and implement a cost-efficient system using locally available materials. Through hands-on training, we deployed these setups and taught locals how to build, operate, and maintain their own vertical farming systems, fostering long-term usability. Additionally, the project sought to spark interest in sustainable agriculture, experimentation, and STEM by introducing the community to a diverse range of crops suitable for vertical farming.",
     images: [
       "/projects/vertical_farming/1.png",
       "/projects/vertical_farming/2.png",
@@ -55,7 +55,7 @@ const projects = [
     name: "Currency Literacy Game | Cambodia",
     date: "Oct 2018",
     description:
-      "Our team created an interactive currency literacy game to facilitate seamless decision-making in both USD and KHR, designed specifically for TJSSS students. The project's objectives included instructing students on handling mixed currency transactions with confidence to improve their financial literacy and future career prospects. The game provided an engaging and interactive educational experience, featuring progressive difficulty levels and constant feedback to enhance the learning process. The overarching goal was to instill a spirit of curiosity and introduce an element of fun into the educational journey for the students.",
+      "We created an interactive currency literacy game to facilitate seamless decision-making in both USD and KHR, designed specifically for school students. The game provided an engaging and interactive educational experience, featuring progressive difficulty levels and constant feedback to enhance the learning process. The overarching goal was to instill a spirit of curiosity and introduce an element of fun into the educational journey for the students.",
     images: [
       "/projects/currency_game/1.png",
       "/projects/currency_game/2.png",
